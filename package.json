@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Blog for freefire game",
   "main": "app.js",
-  "start":"nodemon app",
+  "start": "nodemon app",
   "dependencies": {
     "express": "^4.17.1",
     "pug": "^3.0.0"
@@ -11,7 +11,10 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon app"
+    "start": "nodemon app"
+  },
+  "engines": {
+    "node": "10.x"
   },
   "author": "GKD",
   "license": "ISC"
