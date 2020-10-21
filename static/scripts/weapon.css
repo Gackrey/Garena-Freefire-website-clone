@@ -266,3 +266,12 @@ footer{
     color: white;
     padding:8px 10px;
 }
+@media only screen and (max-width:1029px){
+    .icons ul li {
+        margin-top: 40px;
+    }
+    .weapons .weapon {
+        width: 80%;
+        margin: 12px auto;
+    }
+}

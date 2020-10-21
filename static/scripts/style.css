@@ -51,7 +51,7 @@ nav ul li a {
 .active-color{
     background-color: red;
 }
-@media only screen and (max-width:760px){
+@media only screen and (max-width:1029px){
     .hamburger {
         display: block;
     }
@@ -68,6 +68,9 @@ nav ul li a {
         margin-top: 20px;
         text-align: center;
         border-bottom: 1px solid white;
+    }
+    nav ul li a {
+        padding: 15px 400px;
     }
     .active{
         left: 0;

@@ -5,7 +5,6 @@ h1{
     color: white;
 }
 .mapboxes{
-    margin: 0px 275px;
     display: flex;
     justify-content: center;
 }
@@ -51,19 +50,17 @@ footer{
     padding:8px 10px;
 }
 @media only screen and (max-width:1100px){
-    .mapboxes:hover img{
-        opacity: 1;
-    }
     .mapboxes .mapbox img{
         width: 200px;
         height: 200px;
     }
 }
-@media only screen and (max-width:760px){
-    .mapboxes{
-        flex-direction: column;
-        margin: 0;
-        align-items: center;
+@media only screen and (max-width:1000px){
+    .mapboxes .mapbox {
+        margin: 10px 10px;
+    }
+    .modes .modbox {
+        padding: 20px;
     }
     .mapboxes .mapbox img{
         width: 300px;
