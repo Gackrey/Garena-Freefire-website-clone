@@ -10,22 +10,22 @@ app.set('view engine','pug');
 app.set('views',path.join(__dirname,'views'));
 
 app.get('/',(req,res)=>{
-    res.status(200).render('home.pug');
+    res.render('home.pug');
 });
 app.get('/home',(req,res)=>{
-    res.status(200).render('home.pug');
+    res.render('home.pug');
 });
 app.get('/character',(req,res)=>{
-    res.status(200).render('character.pug');
+    res.render('character.pug');
 });
 app.get('/weapon',(req,res)=>{
-    res.status(200).render('weapon.pug');
+    res.render('weapon.pug');
 });
 app.get('/maps&modes',(req,res)=>{
-    res.status(200).render('maps.pug');
+    res.render('maps.pug');
 });
 app.get('/contact',(req,res)=>{
-    res.status(200).render('contact.pug');
+    res.render('contact.pug');
 });
 
 app.listen(port,()=>{
