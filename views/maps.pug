@@ -1,0 +1,47 @@
+block head 
+    title Maps and Modes
+block style
+    style
+      include ../static/scripts/style.css
+      include ../static/scripts/maps.css
+block content
+    nav.navbar
+        ul.navelem
+            li
+                a(href="/home") Home
+            li
+                a(href="/character") Character
+            li
+                a(href="/weapon") Weapon
+            li.active-color
+                a(href="/maps&modes") Maps & Modes
+            li
+                a(href="/contact") Contact
+    div.hamburger
+        div.lines
+        div.lines
+        div.lines
+    h1 Maps
+    div.maps
+        div.mapboxes
+            div.mapbox
+                img(src="../static/img/maps/Bermuda.jpg", alt="")
+            div.mapbox
+                img(src="../static/img/maps/purgetory.jpg", alt="")
+            div.mapbox
+                img(src="../static/img/maps/kalahari.jpeg", alt="")
+    h1 Modes
+    div.modes 
+        div.modbox
+            h2 Classic Match
+            p The first of the game modes described in our guide is the classic mode, which is selected by default when the game is started. In this mode, a total of 50 players compete against each other on one of the two maps, Purgatory or Bermuda, which you can select on your own. This is the most classic (as its name suggests) gameplay mode, without any requirements to unlock or additional rules - the winner is the last man standing.
+        div.modbox 
+            h2 Ranked Match
+            p There are two other important things about Ranked Game mode. First of all, matches played in this mode reward you with a 20% bonus on the earned cash and experience points. Secondly, this mode is only available by default when the character advanced to level 10 of experience. It may be just level 5, if you link your account to one of several social networking sites, such as VK.com or Facebook.
+        div.modbox 
+            h2 Clash Squad Match
+            p Clash Squad mode features only eight players, divided into two teams, namely Warbringers and Howlers. These teams fight over seven rounds, and the side to first win four rounds will triumph and get the Booyah. Players have to purchase weapons and other equipment before the commencement of every round. The teams have to strategically plan each round so that everyone is on the same page, and that they make coordinated purchases.
+    footer Made by Gaurav with ❤️️
+    script
+      include ../static/scripts/toggle.js
+    

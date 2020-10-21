@@ -1,0 +1,36 @@
+block head 
+    title Contact Us
+block style
+    style
+      include ../static/scripts/style.css
+      include ../static/scripts/contact.css
+block content
+    nav.navbar
+        ul.navelem
+            li
+                a(href="/home") Home
+            li
+                a(href="/character") Character
+            li
+                a(href="/weapon") Weapon
+            li
+                a(href="/maps&modes") Maps & Modes
+            li.active-color
+                a(href="/contact") Contact
+    div.hamburger
+        div.lines
+        div.lines
+        div.lines
+    h1 Contact Us
+    form(action="", method="post" class="contact")
+        input(type="text",name="name", class = 'myinput',placeholder="Enter your name")
+        input(type="phone",name="phoneno" , class = 'myinput',placeholder="Enter your phone no")
+        input(type="email",name="email" , class = 'myinput',placeholder="Enter your email")
+        input(type="text",name="address", class = 'myinput',cols="30",rows="10",placeholder="Enter your address")
+        textarea(name="concern", class = 'myinput',cols="30",rows="10",placeholder="Enter your concern")
+        button(class='btn')
+            |Submit
+    footer Made by Gaurav with ❤️️
+    script
+      include ../static/scripts/toggle.js
+    

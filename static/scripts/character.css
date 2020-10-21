@@ -1,0 +1,41 @@
+.characters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.characters  .charbox{
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 22px 10px;
+    background-color: gray;
+}
+.characters  .charbox img{
+    width: 234px;
+    height: 300px;
+    margin-left: 18px;
+}
+.characters  .charbox .info{
+    position: relative;
+    top: 3px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    padding: 5px;
+    transition: .7s;
+    height: 200px;
+}
+.characters  .charbox:hover .info{
+    top: -195px;
+}
+.characters  .charbox .info h1{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:8px 10px;
+}

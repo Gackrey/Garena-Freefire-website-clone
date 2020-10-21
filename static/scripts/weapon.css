@@ -1,0 +1,268 @@
+/* starting icons with functions */
+.icons{
+    margin: 32px auto;
+}
+.icons ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icons ul li{
+    text-decoration: none;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+.icons ul li span{
+    padding: inherit;
+    font-size: 20px;
+}
+.icons ul li .launcher,.images{
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/launcher.png');
+}
+.icons ul li:hover .launcher,.show{
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/launcher-h.png');
+}
+.icons ul li .launcher-h{
+    display: none;
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/launcher-h.png');
+}
+.icons ul li .lmg{
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/lmg.png');
+}
+.icons ul li:hover .lmg{
+    background: url('../static/img/guns/icons/lmg-h.png');
+}
+.icons ul li .lmg-h{
+    display: none;
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/lmg-h.png');
+}
+.icons ul li .shotgun,.images{
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/shotgun.png');
+}
+.icons ul li:hover .shotgun{
+    background: url('../static/img/guns/icons/shotgun-h.png');
+}
+.icons ul li .shotgun-h{
+    display: none;
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/shotgun-h.png');
+}
+.icons ul li .smg,.images{
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/smg.png');
+}
+.icons ul li:hover .smg{
+    background: url('../static/img/guns/icons/smg-h.png');
+}
+.icons ul li .smg-h{
+    display: none;
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/smg-h.png');
+}
+.icons ul li .pistol{
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/pistol.png');
+}
+.icons ul li:hover .pistol{
+    background: url('../static/img/guns/icons/pistol-h.png');
+}
+.icons ul li .pistol-h{
+    display: none;
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/pistol-h.png');
+}
+.icons ul li .melee{
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/melee.png');
+}
+.icons ul li:hover .melee{
+    background: url('../static/img/guns/icons/melee-h.png');
+}
+.icons ul li .melee-h{
+    display: none;
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/melee-h.png');
+}
+.icons ul li .bow{
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/bow.png');
+}
+.icons ul li:hover .bow{
+    background: url('../static/img/guns/icons/bow-h.png');
+}
+.icons ul li .bow-h{
+    display: none;
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/bow-h.png');
+}
+.icons ul li .ar{
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/ar.png');
+}
+.icons ul li:hover .ar{
+    background: url('../static/img/guns/icons/ar-h.png');
+}
+.icons ul li .ar-h{
+    display: none;
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/ar-h.png');
+}
+.icons ul li .sniper{
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/sniper.png');
+}
+.icons ul li:hover .sniper{
+    background: url('../static/img/guns/icons/sniper-h.png');
+}
+.icons ul li .sniper-h{
+    display: none;
+    height: 32px;
+    width: 80px;
+    background: url('../static/img/guns/icons/sniper-h.png');
+}
+
+/* All the weapons  */
+.weapons{
+    display: flex;
+    margin: 10px 20px;
+    flex-wrap: wrap;
+}
+.weapons .weapon{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.weapons .weapon .namebar{
+    display: flex;
+}
+.weapons .weapon .namebar .name{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    padding: 0;
+}
+.weapons .weapon .namebar span{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+    padding-top: 18px;
+}
+.weapons .weapon .namebar img{
+    margin-left:68%;
+    margin-top: 21px;
+    margin-right: 4px;
+    height: 17px;
+    width: 16px;
+}
+.weapons .weapon img{
+    width: 451px;
+}
+.description .part{
+    display: flex;
+}
+.description .part .feature{
+    width: 50%;
+    margin-left: 7px;
+    margin-bottom: 4px;
+}
+.description .feature .decoration{
+    display: flex;
+}
+.description .feature .decoration .status{
+    background-color: rgb(218, 204, 204);
+    border-radius: 10px;
+    width: 100%;
+    height: 12px;
+    margin-top: 3px;
+}
+.description .feature .decoration .status .statusbar-dm{
+    background:linear-gradient(rgb(3, 63, 3),rgb(16, 194, 16));
+    border-radius: 10px;
+    width: 60%;
+    height: 100%;
+}
+.description .feature .decoration .status .statusbar-rf{
+    background: linear-gradient(rgb(3, 63, 3),rgb(16, 194, 16));
+    border-radius: 10px;
+    width: 56%;
+    height: 100%;
+}
+.description .feature .decoration .status .statusbar-rg{
+    background: linear-gradient(rgb(223, 71, 11),rgb(228, 231, 13));
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.description .feature .decoration .status .statusbar-rs{
+    background: linear-gradient(rgb(3, 63, 3),rgb(16, 194, 16));
+    border-radius: 10px;
+    width: 62%;
+    height: 100%;
+}
+.description .feature .decoration .status .statusbar-mz{
+    background: linear-gradient(rgb(3, 63, 3),rgb(16, 194, 16));
+    border-radius: 10px;
+    width: 30%;
+    height: 100%;
+}
+.description .feature .decoration .status .statusbar-ac{
+    background:linear-gradient(rgb(223, 71, 11),rgb(228, 231, 13));
+    border-radius: 10px;
+    width: 90%;
+    height: 100%;
+}
+.description .feature .decoration .status .statusbar-ms{
+    background:linear-gradient(rgb(3, 63, 3),rgb(16, 194, 16));
+    border-radius: 10px;
+    width: 55%;
+    height: 100%;
+}
+.description .feature .decoration .status .statusbar-ap{
+    background: linear-gradient(rgb(3, 63, 3),rgb(16, 194, 16));
+    border-radius: 10px;
+    width: 10%;
+    height: 100%;
+}
+.description .feature span{
+    margin-left: 5px;
+    font-size: 15px;
+}
+.description .feature .decoration span{
+    background-color: rgb(16, 241, 16);
+    padding: 5px;
+    margin: -5px 5px;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:8px 10px;
+}

@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+.mapboxes{
+    margin: 0px 275px;
+    display: flex;
+    justify-content: center;
+}
+.mapboxes .mapbox{
+    margin: 10px 20px;
+}
+.mapboxes .mapbox img{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;       
+    border-radius: 14px
+}
+.mapbox img:hover{
+
+    transition: 1s ease-in-out;
+    transform: scale(1.1);
+}
+.modes{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.modes .modbox{
+    background-color: rgb(31, 28, 28);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.modes .modbox h2{
+    text-align: center;
+    margin: 5px 0px;
+}
+.modbox:hover{
+    background-color: rgb(8, 128, 209);
+    transition: .8s;
+}
+footer{
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding:8px 10px;
+}
+@media only screen and (max-width:1100px){
+    .mapboxes:hover img{
+        opacity: 1;
+    }
+    .mapboxes .mapbox img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width:760px){
+    .mapboxes{
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+    .mapboxes .mapbox img{
+        width: 300px;
+        height: 300px;
+    }
+    .modes{
+        display: block;
+    }
+}
