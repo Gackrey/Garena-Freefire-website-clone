@@ -268,7 +268,7 @@ footer{
 }
 @media only screen and (max-width:1029px){
     .icons ul li {
-        margin-top: 40px;
+        margin-top: 60px;
     }
     .weapons .weapon {
         width: 80%;
