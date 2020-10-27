@@ -56,6 +56,9 @@ footer{
     }
 }
 @media only screen and (max-width:1000px){
+    .maps{
+        margin-top: 40px;
+    }
     .mapboxes .mapbox {
         margin: 10px 10px;
     }

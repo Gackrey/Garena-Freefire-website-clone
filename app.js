@@ -27,6 +27,9 @@ app.get('/maps&modes',(req,res)=>{
 app.get('/contact',(req,res)=>{
     res.render('contact.pug');
 });
+app.post('/contact',(req,res)=>{
+    res.send("Form Submitted");
+});
 
 app.listen(port,()=>{
     console.log(`The application started successfully on port ${port}`);

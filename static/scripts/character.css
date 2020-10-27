@@ -39,3 +39,11 @@ footer{
     color: white;
     padding:8px 10px;
 }
+@media only screen and (max-width: 1029px){
+    .characters {
+        margin-top: 75px;
+    }
+    h1{
+        font-size: 80px;
+    }
+}
